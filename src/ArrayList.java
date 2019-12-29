@@ -26,12 +26,15 @@ public class ArrayList
         {
             System.out.println(arr.get(i));// print all value
         }
+
         System.out.println("..................");
 
 
         java.util.ArrayList<String> arr1 =new java.util.ArrayList<String>();
         arr1.add("hetal");
         arr1.add("chirag");
+//        System.out.println("java 8 feature");
+//        arr1.forEach(System.out::println);
         System.out.println(arr1.get(1));// print index 1
 
 

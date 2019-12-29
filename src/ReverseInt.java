@@ -21,17 +21,17 @@ e. Repeat at step a with 1234
     public static void main(String[] args) {
 
         int num=123456;
-        int rev=0;
+        int rev1=0;
         while (num!=0)
         {
-        rev=rev*10+num%10;
+        rev1=rev1*10+num%10;
         num=num/10;
         }
-        System.out.println("reverse no : "+rev);
+        System.out.println("reverse no : "+rev1);
 
         // reverse int with stringbuffer
         int num1=123456;
         System.out.println(new StringBuffer(String.valueOf(num1)).reverse());//num we have to convert in string then reverse
 
-    }
+     }
 }

@@ -8,10 +8,10 @@ public class SwapString
         a=a+b;//helloworld
         // store a value in b
         b=a.substring(0,b.length());//hello
-        System.out.println(b);
+        System.out.println("b :"+b);
         //store b value in a
         a=a.substring(b.length());//world
-        System.out.println(a);
+        System.out.println("a :"+ a);
 
     }
 }

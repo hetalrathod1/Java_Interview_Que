@@ -16,7 +16,7 @@ public class PrimeNumber {
         return true;}
 
         public static void main (String[]args){
-            System.out.println("8 is prime number ::" + PrimeNumber(8));
+            System.out.println("8 is prime number ::" + PrimeNumber(5));
 
         }
     }

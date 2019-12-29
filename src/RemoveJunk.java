@@ -12,6 +12,7 @@ We use this Regular Expression: [^a-zA-Z0-9] to remove the Junk Characters from 
 
     public static void main(String args[])
     {
+
         String s="hetal £$% Automation_=()@";
 
         // regular expression - regex [^a-zA-Z0-9]
